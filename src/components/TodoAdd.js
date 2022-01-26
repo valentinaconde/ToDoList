@@ -32,7 +32,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
             <input
                 type="text"
                 name="description"
-                placeholder="Nuevo ToDo..."
+                placeholder="New ToDo..."
                 autoComplete="off"
                 onChange={handleInputChange}
                 value={description} />
