@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+
+div{
+  font-family: 'Fjalla One', sans-serif;
+  margin: 70px;
+  border: 5px grey;
+  padding: 10px;
+  border-radius: 15px;
+  border-style: dotted;
+}
+
+
+p{
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+
+.complete{
+  text-decoration: line-through;
+  text-decoration-style: double;
+  color: red;
+  
+}
+
+input{
+  border-radius: 5px;
+  height: 30px;
+}
+
+
+.boton_agregar{
+  height: 30px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@media (max-width: 767px){
+  div{
+    margin: 10px;
+  }
+}
